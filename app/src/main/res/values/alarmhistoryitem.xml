@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="alarm_history">
+        <item>2020-04-26 14:15:28 무적카페 주문이 승인되었습니다. </item>
+        <item>2020-04-22 08:18:45 멀캠카페 메뉴 제작이 완료되었습니다. </item>
+        <item>2020-04-23 08:15:33 멀캠카페 주문이 승인되었습니다. </item>
+        <item>2020-04-22 14:20:28 멀캠카페 메뉴 제작이 완료되었습니다.</item>
+        <item>2020-04-22 14:15:28 멀캠카페 주문이 승인되었습니다.</item>
+
+
+
+    </string-array>
+</resources>

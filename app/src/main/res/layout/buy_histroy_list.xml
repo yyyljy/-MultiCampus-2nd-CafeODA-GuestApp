@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bmhananapro"
+        android:text="주문 가게"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/order_cafename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bmhananapro"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bmhananapro"
+        android:text="주문번호"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/order_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bmhananapro"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bmhananapro"
+        android:text="주문 메뉴"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/order_prdname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bmhananapro"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bmhananapro"
+        android:text="HOT/ICE"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/order_icehot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bmhananapro"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bmhananapro"
+        android:text="주문 사이즈"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/order_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bmhananapro"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bmhananapro"
+        android:text="주문 수량"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/order_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bmhananapro"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bmhananapro"
+        android:text="주문 날짜"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/order_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bmhananapro"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bmhananapro"
+        android:text="주문 총 가격"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/order_totalprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bmhananapro"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bmhananapro"
+        android:text="현재 상태"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/order_statusmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bmhananapro"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="==================================================="/>
+
+
+
+</LinearLayout>

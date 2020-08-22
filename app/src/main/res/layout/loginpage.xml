@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="카페오다(Guest)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="40dp"
+        android:fontFamily="@font/bmhananapro"
+        android:layout_marginTop="60dp"
+        />
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="5">
+        &lt;!&ndash;<androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>&ndash;&gt;
+    </LinearLayout>-->
+
+    <EditText
+        android:id="@+id/Txt_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="전화번호"
+        android:inputType="number"
+        android:fontFamily="@font/bmhananapro"/>
+    <EditText
+        android:id="@+id/Txt_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="패스워드"
+        android:inputType="number"
+        android:fontFamily="@font/bmhananapro"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <!--<Button
+            android:id="@+id/kakao_loginBtn"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="카카오로그인"
+            android:fontFamily="@font/bmhananapro"
+            android:background="#DDCD3C"
+            android:textColor="#ffffff"
+            />-->
+        <Button
+            android:id="@+id/Btn_login"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="로그인"
+            android:fontFamily="@font/bmhananapro"
+            android:layout_marginTop="25dp"
+            android:background="#8E6E5F"
+            android:textColor="#EFEAEA"
+            android:onClick="email_loginbtn"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
